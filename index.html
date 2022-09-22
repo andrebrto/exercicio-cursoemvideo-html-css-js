@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto - Verificadora de Idade</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificadora de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <label for="">Ano de Nascimento <input type="number" id="ano"></label><br>
+            <p> SEXO:
+                <input type="radio" name="radsex" id="sexo" checked>
+                <label for="">Masculino</label>
+
+                <input type="radio" name="radsex" id="sexoF">
+                <label for="">Feminino</label>
+            </p>
+            <button id="verificar" onclick="verificar()">Verificar</button>
+        </div>
+        
+        <div id="res">
+            Preencha os dados para ver o resultado
+        </div>     
+        
+    </section>
+    <footer>
+        <p>Created by André de Brito - <a href="https://github.com/andrebrto" target="_blank">https://github.com/andrebrto</a></p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
